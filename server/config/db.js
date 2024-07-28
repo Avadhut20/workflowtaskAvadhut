@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const connectDb= async()=>{
     try{
-        await mongoose.connect('mongodb://localhost:27017/trelloclone',{
+        await mongoose.connect('mongodb+srv://avadhutkul60:quLC14qzNfjxKHfW@cluster0.f0ivqme.mongodb.net/',{
             useNewUrlParser: true,
         useUnifiedTopology: true,
         })
